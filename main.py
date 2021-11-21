@@ -83,17 +83,6 @@ csv_header = ['Product_title', 'Product_image', 'Packsize', 'Price', 'Price per 
 with open("products_info.csv", "w") as f:
     writer = csv.writer(f)
     writer.writerow(csv_header)
-    
+
 for link in links:
     write_to_csv(link)
-        
-
-
-
-# for menu in menus.find_all(name="a"):
-#     links.append(menu.get("href"))
-
-
-
-
-
