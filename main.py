@@ -111,7 +111,7 @@ def write_to_db(url):
 
     conn.commit()
 
-# Ana menüleri işler ve ilgili bağlantıları toplar
+# Works main menus and collects related links
 soup = get_soup(GROCERIES_URL)
 if soup:
     menus = soup.select("li[class*='tab-nav--item dropdown--list--item']")
