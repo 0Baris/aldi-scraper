@@ -21,11 +21,6 @@ Added missing categories, migrated data to sqlite database which is more useful 
 - Run `python main.py` in the console to start core operations.
 - Call the relevant functions to collect.
 
-## Contributing
-
-- Fork the project to work on your own version.
-- Submit a pull request to share your contributions.
-
 ## License
 
 This project is licensed under the MIT License.
